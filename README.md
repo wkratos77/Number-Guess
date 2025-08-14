@@ -33,6 +33,7 @@ Too high! Try again.
 > 63
 
 🎉 Correct! You found it in 3 attempts.
+
 ---
 
 ## 📜 License
