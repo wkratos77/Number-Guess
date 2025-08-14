@@ -6,8 +6,8 @@ int main(void)
 {
     int target, guess, attempts = 0;
 
-    srand(time(NULL));    // Seed random number generator
-    target = rand() % 100 + 1; // 1 to 100
+    srand(time(NULL));   
+    target = rand() % 100 + 1;
 
     printf("=== Number Guessing Game ===\n");
     printf("Guess a number between 1 and 100:\n");
@@ -18,8 +18,7 @@ int main(void)
         if (scanf("%d", &guess) != 1)
         {
             printf("Please enter a valid number.\n");
-            while (getchar() != '\n'); // Clear invalid input
-
+            while (getchar() != '\n'); 
             continue;
         }
         attempts++;
