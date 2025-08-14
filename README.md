@@ -21,11 +21,17 @@ gcc -Wall -Wextra -Werror number_guess.c -o number_guess
 ## 📂 Example Output
 === Number Guessing Game ===
 Guess a number between 1 and 100:
+
 > 50
+
 Too low! Try again.
+
 > 75
+
 Too high! Try again.
+
 > 63
+
 🎉 Correct! You found it in 3 attempts.
 ---
 
